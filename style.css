@@ -9,8 +9,11 @@ h1{
 h2{
     font-size: 30px;
 }
-
-.flexible{
+h4{
+    font-size: 20px;
+    color: black;
+}
+.flexible, .third-width{
     display: flex;
     margin-bottom: 100px;
 }
@@ -45,4 +48,25 @@ span{
     background-image: url(images/about-bg.png);
     background-repeat: no-repeat;
     background-position: right;    
+}
+
+.recipes .text{
+    text-align: center;
+    padding-left: 22%;
+    padding-right: 22%;
+}
+.third-width .card{
+    width:20%;
+    padding: 1% 1% 1% 1%;
+    margin-left: 8%;
+    border-radius: 5%;
+    box-shadow: 0px 0px 10px 10px rgb(230, 230, 230);
+    transition: all 0.3s ease;
+}
+.third-width .card:hover{
+    transform: scale(1.05);
+}
+.third-width .card .box img{
+    width: 100%;
+    border-radius: 10px;
 }
