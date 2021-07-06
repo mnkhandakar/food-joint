@@ -93,3 +93,10 @@ span{
 .online .followers .card:hover{
     transform: scale(1.05);
 }
+
+footer{
+    height: 200px;
+    padding-top: 20px;
+    text-align: center;
+    background: black;
+}
