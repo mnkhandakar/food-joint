@@ -9,11 +9,17 @@ h1{
 h2{
     font-size: 30px;
 }
+h3{
+    font-size: 35px;
+    color: black;
+    font-weight: 700;
+}
 h4{
     font-size: 20px;
+    font-weight: 700;
     color: black;
 }
-.flexible, .third-width{
+.flexible, .third-width, .followers{
     display: flex;
     margin-bottom: 100px;
 }
@@ -59,7 +65,7 @@ span{
     width:20%;
     padding: 1% 1% 1% 1%;
     margin-left: 8%;
-    border-radius: 5%;
+    border-radius: 15px;
     box-shadow: 0px 0px 10px 10px rgb(230, 230, 230);
     transition: all 0.3s ease;
 }
@@ -69,4 +75,21 @@ span{
 .third-width .card .box img{
     width: 100%;
     border-radius: 10px;
+}
+.online .followers{
+    width:84%;
+    min-height: 200px;
+    margin-top: 150px;
+    margin-left: 7%;
+    box-shadow: 0px 0px 10px 10px rgb(230, 230, 230);
+    border-radius: 15px;
+}
+
+.online .followers .card{
+    width: 33%;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+.online .followers .card:hover{
+    transform: scale(1.05);
 }
