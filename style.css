@@ -6,6 +6,9 @@ body{
 h1{
     font-size: 40px;
 }
+h2{
+    font-size: 30px;
+}
 
 .flexible{
     display: flex;
@@ -20,7 +23,7 @@ h1{
 }
 
 .half-width img{
-    width: 70%;
+    width: 60%;
 }
 span{
     color: rgb(228, 107, 26);
@@ -38,6 +41,8 @@ span{
     color: crimson;
     border: 3px solid red;
 }
-.about-me{
-
+.about-us{
+    background-image: url(images/about-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;    
 }
