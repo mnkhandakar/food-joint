@@ -52,8 +52,10 @@ span{
 }
 .about-us{
     background-image: url(images/about-bg.png);
+    height: max-content;
     background-repeat: no-repeat;
-    background-position: right;    
+    background-position: center; 
+    background-size: cover;   
 }
 
 .recipes .text{
