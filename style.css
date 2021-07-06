@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;;
+    color: gray;
+}
+h1{
+    font-size: 40px;
+}
+
+.flexible{
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.half-width{
+    padding-top: 50px;
+    padding-left: 5%;
+    width: 50%;
+    font-weight: 600;
+}
+
+.half-width img{
+    width: 70%;
+}
+span{
+    color: rgb(228, 107, 26);
+}
+.button{
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;    
+    background-image: linear-gradient(orange,crimson);
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+.button:hover{
+    background-image: none;
+    color: crimson;
+    border: 3px solid red;
+}
+.about-me{
+
+}
